@@ -25,8 +25,7 @@ function getHumanChoice() {
 
     console.log("Human selected " + humanChoice)
 
-    return humanChoice;
-    
+    return humanChoice;    
 }
 
 function getComputerChoice() {
@@ -100,17 +99,8 @@ function playGame() {
     } else if (humanScore < computerScore) {
         console.log("The winner is COMPUTER");
     } else {
-        console.log("Nice game");
+        console.log("No WINNER, It's a tie game");
     }
 }
 
 playGame();
-
-/*     } else if (humanScore > computerScore) {
-        console.log("The winner is HUMAN");
-    } else if (humanScore > computerScore) {
-        console.log("The winner is COMPUTER");
-    } else {
-        console.log("It\'s a tie");
-    }
-    return null; */
